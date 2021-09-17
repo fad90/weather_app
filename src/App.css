@@ -4,11 +4,22 @@
     box-sizing: border-box;
 }
 .app {
-    background-color: bisque;
-    height: 100vh;
+    background-image: url('/src/img/cold.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
 }
-.container {
-    background-color: rgb(154, 155, 155);
-    display: flex;
-    flex-direction: column;
+.app.warm {
+    background-image: url('/src/img/warm.jpg');
+}
+.main {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+}
+.search-box {
+    width: 100%;
+    margin: 0 0 75px;
+}
+.search-bar {
+    
 }
