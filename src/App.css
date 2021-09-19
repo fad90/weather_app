@@ -20,6 +20,15 @@ body {
   margin: 0;
   overflow: hidden;
 }
+.cold {
+  background: url("/src/img/cold.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
 .main {
   width: 100%;
   max-width: 500px;
